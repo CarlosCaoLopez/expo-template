@@ -1,0 +1,32 @@
+# REUSE-SpecVersion: 3.3
+# https://reuse.software/spec/
+#
+# This file declares copyright and licensing information for files
+# that cannot carry SPDX headers (binaries, generated files, etc.)
+
+version = 1
+
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "2024 Contributors to web-app"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+[[annotations]]
+path = "LICENSE"
+SPDX-FileCopyrightText = "Free Software Foundation, Inc."
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+[[annotations]]
+path = "*.md"
+SPDX-FileCopyrightText = "2024 Contributors to web-app"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+[[annotations]]
+path = ".github/**"
+SPDX-FileCopyrightText = "2024 Contributors to web-app"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+[[annotations]]
+path = "public/**"
+SPDX-FileCopyrightText = "2024 Contributors to web-app"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
