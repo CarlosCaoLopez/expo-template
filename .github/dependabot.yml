@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "pnpm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pnpm"
+    directory: "/apps/backend"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pnpm"
+    directory: "/apps/expo-app"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pnpm"
+    directory: "/apps/mcp-server"
+    schedule:
+      interval: "weekly"

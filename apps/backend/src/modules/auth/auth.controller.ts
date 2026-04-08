@@ -26,6 +26,16 @@ export class AuthController {
     return this.authService.login(user);
   }
 
+  @Post('logout')
+  @HttpCode(HttpStatus.OK)
+  @ApiOperation({ summary: 'Log out (client must discard the token)' })
+  logout(): { message: string } {
+    // JWT is stateless — no server-side state to destroy.
+    // This endpoint exists for clients that want an explicit logout call
+    // and as a hook for future token blacklisting via Redis.
+    return { message: 'Logged out successfully' };
+  }
+
   @Post('me')
   @HttpCode(HttpStatus.OK)
   @ApiOperation({ summary: 'Return the current authenticated user' })
