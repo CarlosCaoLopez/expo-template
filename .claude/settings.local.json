@@ -29,7 +29,9 @@
       "Bash(curl -v --max-time 5 -X POST http://localhost:3001/api/v1/auth/login -H \"Content-Type: application/json\" -d '{\"\"\"\"email\"\"\"\":\"\"\"\"fresh@test.com\"\"\"\",\"\"\"\"password\"\"\"\":\"\"\"\"wrongpassword\"\"\"\"}')",
       "Bash(echo \"EXIT:$PIPESTATUS[0]\")",
       "Bash(ls -la /c/Users/Ignacio/Desktop/HackUDC/Templates/expo-template/apps/expo-app/app/\\\\\\(auth\\\\\\)/)",
-      "Bash(ls -la /c/Users/Ignacio/Desktop/HackUDC/Templates/expo-template/apps/expo-app/app/\\\\\\(app\\\\\\)/)"
+      "Bash(ls -la /c/Users/Ignacio/Desktop/HackUDC/Templates/expo-template/apps/expo-app/app/\\\\\\(app\\\\\\)/)",
+      "Bash(pnpm audit:*)",
+      "Bash(pnpm install:*)"
     ]
   }
 }
